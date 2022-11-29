@@ -1,0 +1,28 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import static utils.DbUtil.getConnection;
+import pojos.Candidate;
+
+public class candidateDaoImp implements candidateDao {
+	private Connection con;
+	private PreparedStatement stmtGetAllCan;
+	
+	public candidateDaoImp() throws SQLException {
+		con = getConnection();
+		String sqlGetAllCan = "Select * from candidates";
+		stmtGetAllCan = con.prepareStatement(sqlGetAllCan);
+	}
+	public List<Candidate> getAllCandidates() throws SQLException{
+		List<Candidate> candidates = new ArrayList<>();
+		try(ResultSet rs = stmtGetAllCan.executeQuery()){
+			
+		}
+		return candidates;
+	}
+}

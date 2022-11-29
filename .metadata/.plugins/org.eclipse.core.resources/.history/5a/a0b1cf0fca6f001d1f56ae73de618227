@@ -1,0 +1,9 @@
+package tester;
+import static utils.HibernateUtils.getFactory;
+public class TestHibernate {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

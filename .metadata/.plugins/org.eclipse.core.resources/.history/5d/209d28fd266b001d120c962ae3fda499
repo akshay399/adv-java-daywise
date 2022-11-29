@@ -1,0 +1,5 @@
+package dao;
+
+public interface DaoUser {
+	User authenticater(String email, String pass);
+}

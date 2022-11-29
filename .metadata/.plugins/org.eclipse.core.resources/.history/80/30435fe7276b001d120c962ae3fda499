@@ -1,0 +1,18 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import utils.DbUtils;
+
+public class DaoUserImp implements DaoUser{
+	private Connection con;
+	private PreparedStatement pst;
+	
+	public DaoUserImp() throws SQLException{
+		con = DbUtils.getConnection();
+		pst = con.prepareStatement("select * from user where email = ? and password = ?");
+		System.out.println("const of daouser imp called");
+	}
+}

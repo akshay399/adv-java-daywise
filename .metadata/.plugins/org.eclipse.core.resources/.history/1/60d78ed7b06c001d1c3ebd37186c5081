@@ -1,0 +1,9 @@
+package pojo;
+
+public class Student {
+	private String fn;
+	private String ln;
+	private Course course;
+	private int Score;
+	private boolean isAdmitted;
+}

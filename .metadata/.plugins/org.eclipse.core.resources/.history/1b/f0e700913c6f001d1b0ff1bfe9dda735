@@ -1,0 +1,20 @@
+<%@ page errorPage="my_error_page" language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>test1</title>
+</head>
+<body>
+<%
+int a = 100;
+int b = 0;
+int result = a / b;
+%>
+result: 
+<%= 
+	result
+%>
+</body>
+</html>

@@ -1,0 +1,13 @@
+package dao;
+
+import java.sql.SQLException;
+
+public class UserDaoImpl implements UserDao {
+
+	@Override
+	public String authenticateUser() throws SQLException {
+		
+		return null;
+	}
+
+}

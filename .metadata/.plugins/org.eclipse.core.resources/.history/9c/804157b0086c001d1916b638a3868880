@@ -1,0 +1,66 @@
+package pages;
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import dao.userDaoImp;
+import pojos.User;
+
+import static utils.DbUtil.openConnection;;
+/**
+ * Servlet implementation class LoginServlet
+ */
+@WebServlet("/authenticate")
+public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	private userDaoImp userDao;
+
+	public void init() throws ServletException{
+		System.out.println("in init of login servlet");
+		try {
+			openConnection();
+			userDao = new userDaoImp();
+		} catch (SQLException e) {
+			throw new ServletException();
+		}
+	}
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		try(PrintWriter pw = response.getWriter()){
+			String email = request.getParameter("email");
+			String password = request.getParameter("password");
+			try {
+				User user = userDao.authenticater(email, password);
+				if(user == null) {
+					pw.write("<h3>Login Unsuccessfull please <a href='login.html'>Retry</a></h3>");
+				}else {
+					if(user.getRole().equals("admin")) {
+						pw.write("<h3>Welcome admin!!!</h3>");
+					}else {
+						if(user.isVotingStatus()) {
+							//if this is true then show logout page as they have already voted.
+							pw.write("Thank you for voting! you are logged out.");
+						}else {
+							//if in this block then show the candidate list(i.e delegate to the candidate_list servlet).
+							pw.write("<h3>hello welcome</h3>")
+							response.sendRedirect("candidate_list2");
+						}
+					}
+				}
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}	
+		}
+		
+	}
+
+}

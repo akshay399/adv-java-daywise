@@ -1,0 +1,14 @@
+package com.sunbeam;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class DaoUser implements AutoCloseable {
+	private Connection con;
+	private PreparedStatement stmtAuthenticateUser;
+	
+	@Override
+	public void close() {
+		
+	}
+}

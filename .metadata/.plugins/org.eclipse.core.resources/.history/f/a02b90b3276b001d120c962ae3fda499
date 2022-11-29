@@ -1,0 +1,15 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import utils.DbUtils;
+
+public class DaoUserImp {
+	private Connection con;
+	private PreparedStatement pst;
+	
+	public DaoUserImp() {
+		con = DbUtils.getConnection();
+	}
+}

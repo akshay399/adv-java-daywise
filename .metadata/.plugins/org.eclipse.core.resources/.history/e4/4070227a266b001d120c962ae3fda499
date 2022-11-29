@@ -1,0 +1,8 @@
+package utils;
+
+import java.sql.*;
+
+public class DbUtils {
+	private static Connection con;
+	
+}

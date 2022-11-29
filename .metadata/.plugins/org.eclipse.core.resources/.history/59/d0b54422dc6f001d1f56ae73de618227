@@ -1,0 +1,20 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import static utils.DbUtils.getConnection;
+public class UserDaoImpl implements UserDao {
+	private Connection con;
+	private PreparedStatement stmtAuthenticateUser;
+	public UserDaoImpl() throws SQLException{
+		con = getConnection();
+		stmtAuthenticateUser = con.prepareStatement("SELECT * FROM USER WHERE EMAIL = ? AND PASSWORD = ?");
+	}
+	@Override
+	public String authenticateUser() throws SQLException {
+		
+		return null;
+	}
+
+}

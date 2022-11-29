@@ -1,0 +1,22 @@
+package beans;
+
+import java.sql.SQLException;
+
+import dao.UserDaoImpl;
+import pojos.User;
+
+public class UserBean {
+//user conversational state.
+	private String email;
+	private String password;
+	
+	//validate userDetails
+	private User validatedUserDetails;
+	private String message;
+	private UserDaoImpl userDao;
+	
+	public UserBean() throws SQLException{
+		userDao = new UserDaoImpl();
+		System.out.println("constructor called, useDao instance created!");
+	}
+}

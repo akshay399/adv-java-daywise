@@ -1,0 +1,19 @@
+package pojos;
+
+import java.time.LocalDate;
+
+public class User {
+	private Integer userId;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
+	private boolean confirmPassword;
+	private Role role;
+	private Integer regAmount;
+	private LocalDate date;
+}
+//
+//userId (PK) ,name,email,password,confirmPassword,role(enum), regAmount;
+//LocalDate/Date regDate;
+//byte[] image;

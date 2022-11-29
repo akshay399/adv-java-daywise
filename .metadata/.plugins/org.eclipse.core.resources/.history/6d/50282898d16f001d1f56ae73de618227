@@ -1,0 +1,9 @@
+package dao;
+
+import pojos.User;
+
+public class UserDaoImpl implements UserDao {
+	public String registerUser(User details) {
+		
+	}
+}

@@ -1,0 +1,21 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import pojos.User;
+import static utils.DbUtil.getConn;
+
+public class userDaoImp implements userDao {
+
+	private Connection con;
+	private PreparedStatement pst1;
+	
+	public userDaoImp() {
+		con 
+	}
+	
+	public User authenticater(String email, String password) {
+		
+	}
+}

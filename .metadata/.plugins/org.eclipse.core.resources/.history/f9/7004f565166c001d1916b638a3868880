@@ -1,0 +1,7 @@
+package dao;
+
+public class candidateDaoImp implements candidateDao {
+	public List<Candidate> getAllCandidates(){
+		List<Candidate> candidates = new ArrayList<>();
+	}
+}

@@ -1,0 +1,24 @@
+package com.sunbeam;
+
+import java.io.InputStream;
+import java.util.Properties;
+
+public class DbUtil {
+	private static String DB_DRIVER;
+	private static String DB_URL;
+	private static String DB_USER;
+	private static String DB_PASSWORD;
+	
+	static {
+		try(InputStream in = DbUtil.class.getResourceAsStream("jdbc.properties")){
+			Properties props = new Properties();
+			props.load(in);
+			DB_DRIVER = props.getProperty("db.driver");
+			DB_URL = props.getProperty("db.url");
+			DB_USER = props.getProperty("db.user");
+			DB_PASSWORD = props.getProperty("db.password");
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

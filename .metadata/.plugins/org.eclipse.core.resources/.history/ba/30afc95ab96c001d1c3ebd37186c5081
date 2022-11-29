@@ -1,0 +1,25 @@
+package pages;
+
+import java.io.PrintWriter;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import pojo.Student;
+
+/**
+ * Servlet implementation class ResultPageServlet
+ */
+@WebServlet("/results")
+public class ResultPageServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	public void doPost(HttpServletRequest request, HttpServletResponse response) {
+		response.setContentType("text/html");
+		try(PrintWriter pw = response.getWriter()){
+			Student s =(Student) request.getAttribute("student_info");
+			pw.write("<h2> Welcome " + s.getFirstName() + "</h2>");
+		}
+	}
+}

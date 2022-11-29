@@ -1,0 +1,19 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class UserDaoImpl implements UserDao {
+	private Connection con;
+	private PreparedStatement stmtAuthenticateUser;
+	public UserDaoImpl() {
+		con = getCon();
+	}
+	@Override
+	public String authenticateUser() throws SQLException {
+		
+		return null;
+	}
+
+}

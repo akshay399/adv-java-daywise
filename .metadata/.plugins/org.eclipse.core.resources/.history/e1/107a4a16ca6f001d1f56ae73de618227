@@ -1,0 +1,15 @@
+package tester;
+import static utils.HibernateUtils.getFactory;
+
+import org.hibernate.Session;
+public class TestHibernate {
+
+	public static void main(String[] args) {
+		try(Session session = getFactory().getCurrentSession()){
+			
+		}cathc(Exception e){
+			e.printStackTrace();
+		}
+	}
+
+}

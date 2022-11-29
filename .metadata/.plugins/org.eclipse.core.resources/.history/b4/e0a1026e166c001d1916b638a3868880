@@ -1,0 +1,12 @@
+package dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import pojos.Candidate;
+
+public class candidateDaoImp implements candidateDao {
+	public List<Candidate> getAllCandidates(){
+		List<Candidate> candidates = new ArrayList<>();
+	}
+}

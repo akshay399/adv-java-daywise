@@ -1,0 +1,15 @@
+package beans;
+
+import dao.UserDaoImpl;
+import pojos.User;
+
+public class UserBean {
+	
+	private String email;
+	private String password;
+	private String message;
+	private User validatedUser;
+	private UserDaoImpl uDao;
+	
+
+}
