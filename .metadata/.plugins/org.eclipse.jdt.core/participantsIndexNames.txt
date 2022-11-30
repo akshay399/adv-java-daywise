@@ -3,6 +3,8 @@ D:\adv-workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\12677751
 \day7.1\src\main\java
 D:\adv-workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3945944523.index
 \day7.1_lab\src\main\java
+D:\adv-workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2382263515.index
+\web_maven_hibernate\src\main\java
 D:\adv-workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1059369074.index
 \day5.1\src\main\java
 D:\adv-workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2624730843.index
