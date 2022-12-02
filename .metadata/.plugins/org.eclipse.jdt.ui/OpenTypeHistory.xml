@@ -5,4 +5,6 @@
     <typeInfo handle="=day7_hibernate_rerun/C:\/Program Files\/Amazon Corretto\/jdk11.0.13_8\/lib\/jrt-fs.jar`java.xml=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;org.w3c.dom(UserDataHandler.class[UserDataHandler" modifiers="1537" timestamp="1634143790000"/>
     <typeInfo handle="=day7_hibernate_again/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dao{UserDao.java[UserDao" modifiers="513" timestamp="1669748041002"/>
     <typeInfo handle="=day7_hibernate_again/C:\/Users\/caksh\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.18.Final\/hibernate-core-5.4.18.Final.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate=/=/maven.artifactId=/hibernate-core=/=/maven.version=/5.4.18.Final=/=/maven.scope=/compile=/&lt;org.hibernate.usertype(UserCollectionType.class[UserCollectionType" modifiers="1537" timestamp="1669534095747"/>
+    <typeInfo handle="=day8_homework/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dao{ProductDao.java[ProductDao" modifiers="513" timestamp="1669835691903"/>
+    <typeInfo handle="=web_maven_hibernate/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dao{ProductDao.java[ProductDao" modifiers="513" timestamp="1669888855669"/>
 </typeInfoHistroy>

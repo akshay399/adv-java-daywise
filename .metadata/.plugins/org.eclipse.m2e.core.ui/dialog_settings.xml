@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day9-data\eclipse_projects\day9.2"/>
+			<item value="D:\adv-workspaces\web_maven_hibernate"/>
+			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day8-data\day8_help\template projects\web_maven_hibernate"/>
+			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day8-data"/>
 			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day5-data\eclipse_projects\test_hibernate"/>
 		</list>
 		<list key="projectNameTemplate">

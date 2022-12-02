@@ -6,9 +6,9 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/test_hibernate" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1669797478350_5" label="" name="">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/web_maven_hibernate" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/day8.1" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1669107817722_2" label="Window Working Set" name="Aggregate for window 1669107817722"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1669656100544_4" label="Window Working Set" name="Aggregate for window 1669656100544"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1669826050731_6" label="Window Working Set" name="Aggregate for window 1669826050731"/>
 </workingSetManager>

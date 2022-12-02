@@ -85,3 +85,13 @@ Nov 29, 2022 17:01:51.15 [25568:16140:1129/170151.013:ERROR:device_event_log_imp
 Nov 29, 2022 17:01:51.75 [25568:16140:1129/170151.015:ERROR:device_event_log_impl.cc(215)] [17:01:51.015] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
 Nov 29, 2022 17:02:48.502 [25568:12680:1129/170248.501:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
 Nov 29, 2022 18:23:29.962 [25568:5456:1129/182329.961:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -7
+
+Dec 01, 2022 16:05:27.332 NEW SESSION
+Dec 01, 2022 16:05:27.333 [1760:16220:1201/160527.331:ERROR:device_event_log_impl.cc(215)] [16:05:27.331] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 01, 2022 16:05:27.460 [1760:16220:1201/160527.333:ERROR:device_event_log_impl.cc(215)] [16:05:27.332] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 01, 2022 16:06:24.897 [1760:1344:1201/160624.896:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Dec 01, 2022 16:33:38.673 [7192:3676:1201/163338.672:ERROR:device_event_log_impl.cc(215)] [16:33:38.672] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 01, 2022 16:33:38.674 [7192:3676:1201/163338.674:ERROR:device_event_log_impl.cc(215)] [16:33:38.673] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 01, 2022 16:34:36.254 [7192:296:1201/163436.254:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Dec 01, 2022 17:25:31.25 [7192:17192:1201/172531.025:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -105
+Dec 01, 2022 18:20:52.98 [7192:17192:1201/182052.097:ERROR:connection_factory_impl.cc(426)] Failed to connect to MCS endpoint with error -106
