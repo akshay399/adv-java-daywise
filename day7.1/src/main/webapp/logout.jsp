@@ -8,5 +8,6 @@
 </head>
 <body>
 
+<h4>Logged out...</h4>
 </body>
 </html>

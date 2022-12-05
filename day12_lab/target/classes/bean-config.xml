@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- dependency beans -->
+	<!-- singleton n eager -->
+	<bean id="test" class="dependency.TestTransport" scope="prototype" />
+	<!-- singleton n lazy -->
+	<bean id="http" class="dependency.HttpTransport" scope="prototype" />
+	<!-- prototype -->
+	<bean id="soap" class="dependency.SoapTransport" lazy-init="true" />
+	<!-- dependent bean singleton n eager -->
+	<bean id="my_atm" class="dependent.ATMImpl" init-method="myInit"
+		destroy-method="myDestroy">
+		<!-- ctor based D.I -->
+		<!-- http constructor gets called(????) -->
+		<constructor-arg name="cash1234" value="123456" /> <!-- value instead of ref as cash is primitive having long value -->
+		<property name="myTransport" ref="http" />
+	</bean>
+
+</beans>
