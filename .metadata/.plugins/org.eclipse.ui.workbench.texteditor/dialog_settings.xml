@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="productCategory"/>
+		<item key="selection" value="&lt;!-- import hibernate config xml file --&gt;"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="&lt;!-- import hibernate config xml file --&gt;"/>
 			<item value="day12.2"/>
 			<item value="can"/>
 			<item value="categoryName"/>
@@ -15,7 +16,6 @@
 			<item value="&apos;product_id"/>
 			<item value="test_hibernate"/>
 			<item value="date"/>
-			<item value="candidateDaoRef"/>
 		</list>
 		<list key="replacehistory">
 			<item value="day12.2"/>
