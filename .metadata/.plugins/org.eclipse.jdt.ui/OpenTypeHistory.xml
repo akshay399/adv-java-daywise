@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=spring_mvc_template/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.dao{UserDao.java[UserDao" modifiers="513" timestamp="1670323146711"/>
+    <typeInfo handle="=demo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.dao{DepartmentDao.java[DepartmentDao" modifiers="513" timestamp="1670412884205"/>
+    <typeInfo handle="=demo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1670416838500"/>
 </typeInfoHistroy>
