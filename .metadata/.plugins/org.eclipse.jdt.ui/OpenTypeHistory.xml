@@ -2,4 +2,7 @@
 <typeInfoHistroy>
     <typeInfo handle="=demo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.dao{DepartmentDao.java[DepartmentDao" modifiers="513" timestamp="1670412884205"/>
     <typeInfo handle="=demo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1670416838500"/>
+    <typeInfo handle="=day15_REST_lab/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.service{ProductService.java[ProductService" modifiers="513" timestamp="1670498678138"/>
+    <typeInfo handle="=day15_REST_lab/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.dao{ProductDao.java[ProductDao" modifiers="513" timestamp="1670503122612"/>
+    <typeInfo handle="=hackathon/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.service{UserService.java[UserService" modifiers="513" timestamp="1670525460303"/>
 </typeInfoHistroy>
