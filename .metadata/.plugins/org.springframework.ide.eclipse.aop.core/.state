@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="demo"/>
 <aop-project name="day16_assignment"/>
-<aop-project name="day15_REST_lab"/>
+<aop-project name="spring_hackathon"/>
+<aop-project name="day16_boot"/>
 <aop-project name="day15_boot"/>
+<aop-project name="spring_mvc_ecommerce"/>
+<aop-project name="spring_boot_template"/>
 <aop-project name="day14_boot"/>
-<aop-project name="hackathon"/>
 </aop-reference-model>

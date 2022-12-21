@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day17-data\eclipse-projects\spring_mvc_ecommerce"/>
 			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day16-data\eclipse-projects\day16_boot"/>
 			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day15-data\eclipse_projects\day15_boot"/>
 			<item value="D:\adv-workspaces\day14_boot"/>
@@ -16,7 +17,6 @@
 			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day12-data\eclipse_projects"/>
 			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day12-data\eclipse_projects\day12.1"/>
 			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day10-data\day10_help\spring-help\template project for spring\test_spring"/>
-			<item value="C:\Users\caksh\Desktop\sunbeam-git-daily-material\adv_java\day10-data\eclipse-projects\day10.1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
